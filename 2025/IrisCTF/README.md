@@ -1,6 +1,6 @@
 # IrisCTF 2025
 ---
-IrisCTF is a 48-hour CTF organized by IrisSec. Challenges categories this year include:
+🚩 IrisCTF is a 48-hour CTF organized by IrisSec. Challenges categories this year include:
 - Binary Exploitation
 - Cryptography
 - Forensics
@@ -11,4 +11,4 @@ IrisCTF is a 48-hour CTF organized by IrisSec. Challenges categories this year i
 - Reverse Engineering
 - Web Exploitation
 
-CTF done with team N0rm1n3tte with @tham-le and @matboivin. We ranked 120th/1558.
+🏅 CTF done with team N0rm1n3tte with @tham-le and @matboivin. We ranked 120th/1558.

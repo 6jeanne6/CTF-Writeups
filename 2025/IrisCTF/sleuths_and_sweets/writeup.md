@@ -1,14 +1,14 @@
-#IrisCTF2025 - Sleuths and Sweets
+# IrisCTF2025 - Sleuths and Sweets
 OSINT - Easy - 50 points
 ---
-##Challenge description
+## Challenge description
 ---
 *I visited my friend in Japan, and we had some alright crepes! The area had a lot of foot traffic, so we expected a long wait, but it was worth it. I’m usually not a fan of yogurt in my crepe, but it still tasted pretty alright.
 
 
 Question: What is the address of this location?*
 
-##Solution
+## Solution
 ---
 
 Based on the written characters of kanjis and katakana, we can guess the location is in Japan.

@@ -15,9 +15,23 @@ To do this, I used a tool called `jadx-gui` which decompiles all Android DEX fil
 I looked into the Java code if there were any suspicious strings that could be similar to a flag. 
 Unfortunalety, nothing special came out but there were functions like `Decode`, `Base64.decode()` so I assume the flag is encrypted in Base64.
 
+<p align="center">
+  <img src="https://github.com/6jeanne6/CTF-Writeups/blob/main/2025/L3akCTF/BrainCalc/jadx-decode.png" width="500"/>
+</p>
+
 I go to the MainActivity file. It has lots of instructions in Python, and `getString(R.string.main_module)` caught my attention.
+
+<p align="center">
+  <img src="https://github.com/6jeanne6/CTF-Writeups/blob/main/2025/L3akCTF/BrainCalc/jadx-main.png" width="500"/>
+</p>
+
 I search for main_module's name in the Resource field, which is `<string name="main_module">BrainCalc</string>`.
 Now I search `BrainCalc` still in Resource, and there are several mentions of it in app.imy file.
+
+<p align="center">
+  <img src="https://github.com/6jeanne6/CTF-Writeups/blob/main/2025/L3akCTF/BrainCalc/jadx-search.png" width="500"/>
+</p>
+
 I export the app.imy in my computer. `file app.imy` says `app.imy: Zip archive data, at least v2.0 to extract, compression method=deflate`
 
 I rename it app.zip and then unzip it. We have .pyc files which contains bytecode.
